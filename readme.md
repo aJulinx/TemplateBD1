@@ -58,7 +58,7 @@ informando quais e a quantidade dos produtos que estão para vencer até dia Y.
         Criar o esquema de forma a garantir a redução de informação redundante, possibilidade de valores null, 
         e tuplas falsas (Aplicar os conceitos de normalização abordados).   
         
-![Alt text]([files/Conceitual_1.png](https://github.com/aJulinx/TemplateBD1/blob/3f85295d48911fdb95016db6fafa08e44e88527c/files/Conceitual_1.png)")
+![Alt text](Conceitual_1.png")
     
     
 #### 5.1 Validação do Modelo Conceitual
