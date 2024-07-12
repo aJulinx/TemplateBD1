@@ -5,10 +5,10 @@ Trabalho desenvolvido durante a disciplina de BD1
 
 ### 1. COMPONENTES<br>
 Integrantes do grupo<br>
-Eduardo Pitanga Loureiro:edudupilo@gmail.com<br>
-Theo Mischiatti Gomes:theo.gomes@outlook.com.br<br>
-Gabriel Dias Brito = cientistadias@gmail.com<br>
-Julio Cesar = julio.siilvafn2019@gmail.com<br>
+Eduardo Pitanga Loureiro: edudupilo@gmail.com<br>
+Theo Mischiatti Gomes: theo.gomes@outlook.com.br<br>
+Gabriel Dias Brito: cientistadias@gmail.com<br>
+Julio Cesar: julio.siilvafn2019@gmail.com<br>
 
 
 ### 2.MINI-MUNDO<br>
