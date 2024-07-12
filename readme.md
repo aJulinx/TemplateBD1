@@ -1,13 +1,14 @@
-# TRABALHO 01:  Título do Trabalho
+# TRABALHO 01:  Estoque do Cliente
 Trabalho desenvolvido durante a disciplina de BD1
 
 # Sumário
 
 ### 1. COMPONENTES<br>
 Integrantes do grupo<br>
-primeiro_componente_do_grupo:email_primeiro_componente@dominio.com<br>
-segundo_componente_do_grupo:email_segundo_componente@dominio.com<br>
-...<br>
+Eduardo:email_primeiro_componente@dominio.com<br>
+Theo:email_segundo_componente@dominio.com<br>
+Gabriel Dias = email_terceiro@<br>
+Julio Cesar = julio.siilvafn2019@gmail.com<br>
 
 
 ### 2.MINI-MUNDO<br>
@@ -18,7 +19,21 @@ Descrição textual das regras de negócio definidas como um  subconjunto do mun
 cujos elementos são propriedades que desejamos incluir, processar, armazenar, 
 gerenciar, atualizar, e que descrevem a proposta/solução a ser desenvolvida.
 
-> O sistema proposto para a "Devcom Projetos conterá as informacões aqui detalhadas. Dos Projetos serão armazenados o número, nome e cidade. Dos Departamentos serão armazenados o número e nome. O cliente destacou que cada projeto pode ter vários departamentos auxiliando no seu desenvolvimento, e cada departamento pode estar envolvido em vários projetos. Os dados relativos aos empregados que serão armazenados são: rg, nome, cpf, salário, data inicial do salario e supervisor de cada empregado. É importante destacar que cada empregado pode ser supervisionado por outro empregado, e obrigatoriamente deve estar alocado a um único departamento, mas pode gerenciar vários departamentos ou não gerenciar nenhum. Um empregado também pode participar de vários projetos, caso seja necessário, mas não precisa obrigatoriamente estar alocado em algum projeto. Com relação aos dependentes serão armazenadas as informações de nome do dependente, data de nascimento, sexo e grau de parentesco. Cada empregado pode ter vários dependentes, mas um dependente esta associado apenas a um único empregado. Com relação ao histórico de salário devemos armazenar as informações de valor do salário, data de início do salário no período e data final do salário no período. É importante lembrar que cada funcionario pode ter diversos eventos de histórico de salário associados a ele visto que este dado pode ser alterado várias vezes. 
+> O cliente deseja um sistema simples, no qual consiga fazer o controle de estoque,
+seja de bebidas, carnes, ou outro produtos de um restaurante, e se possível, um controle
+sobre a validade dos produtos em estoque.
+O sistema será gerenciado por uma única pessoa, da qual fará a inclusão dos
+produtos no estoque sempre que chegarem ao restaurante. Da inclusão, deseja-se saber o
+nome do produto, a quantidade, seja em kilos ou litros, a categoria, seja copa, câmara ou
+outro, a data de inclusão e a data de validade. Além disso, deseja-se ser possível o
+cadastro de novos produtos e novas categorias de estoque.
+Assim como a entrada, o sistema deve permitir a saída de estoque, informando a
+data de consumo (data de inclusão), quantidade e categoria.
+Dadas essas funcionalidades do sistema, deseja-se a construção de relatórios com
+uma visualização detalhada de certas coisas. Deseja-se visualizar um relatório com o total
+de produtos no estoque atual, separados por categoria. Outro relatório com o total
+consumido no mês X, separado por categoria. Além disso, também é desejado um relatório
+informando quais e a quantidade dos produtos que estão para vencer até dia Y.
 
 ### 3.PERGUNTAS A SEREM RESPONDIDAS<br>
 #### 3.1 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
