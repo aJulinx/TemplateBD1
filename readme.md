@@ -53,7 +53,7 @@ b) O cliente informou que precisa inicialmente dos seguintes relatórios:
         e tuplas falsas (Aplicar os conceitos de normalização abordados).   
         
 [![Modelo Conceitual do Estoque](https://github.com/aJulinx/TemplateBD1/blob/8a1410205ac59e5f2cb8e6766dc5af88580db62c/files/Conceitual_3%20estoque.png)
-    
+
 #### 5.1 Validação do Modelo Conceitual
     [Grupo01]: [Eduardo Pitanga, Júlio César, Theo Mischiatti.]
 
@@ -96,20 +96,14 @@ b) O cliente informou que precisa inicialmente dos seguintes relatórios:
 
 ### 6	MODELO LÓGICO<br>
 
+[![Modelo Lógico do Estoque](https://github.com/aJulinx/TemplateBD1/blob/b73606498ea2fb75b9d2794d30ef6f39e033bced/files/L%C3%B3gico_Estoque_1.png).
 
 
 ### 7	MODELO FÍSICO<br>
-        a) inclusão das instruções de criacão das estruturas em SQL/DDL 
-        (criação de tabelas, alterações, etc..) 
 
       
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
-        a) Script das instruções relativas a inclusão de dados 
-	Requisito mínimo: (Script dev conter: Drop para exclusão de tabelas + create definição de para tabelas e estruturas de dados + insert para dados a serem inseridos)
-        OBS
-	1) Criar um novo banco de dados para testar a restauracao (em caso de falha na restauração o grupo não pontuará neste quesito)
-        2) script deve ser incluso no template em um arquivo no formato .SQL
-
+       
 
 ### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
     OBS: Usa template da disciplina disponibilizado no Colab.<br>
