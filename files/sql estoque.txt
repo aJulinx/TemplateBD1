@@ -1,0 +1,42 @@
+SELECT * FROM pg_catalog.pg_tables where schemaname = 'public'
+
+insert into categoria(id_Categoria, nome_Categoria)
+values(1,'Copa');
+insert into categoria(id_Categoria, nome_Categoria)
+values(2,'Câmara');
+
+insert into produto(id_produto, nome_produto, categoria_produto)
+values(1,'Picanha',2);
+insert into produto(id_produto, nome_produto, categoria_produto)
+values(2,'Alcatra',2);
+insert into produto(id_produto, nome_produto, categoria_produto)
+values(3,'Contra File',2);
+insert into produto(id_produto, nome_produto, categoria_produto)
+values(4,'Filé Mignon',2);
+insert into produto(id_produto, nome_produto, categoria_produto)
+values(5,'Cupim',2);
+
+insert into produto(id_produto, nome_produto, categoria_produto)
+values(6,'Coca Cola',1);
+insert into produto(id_produto, nome_produto, categoria_produto)
+values(7,'Guarana',1);
+insert into produto(id_produto, nome_produto, categoria_produto)
+values(8,'Suco de laranja',1);
+
+insert into estoque_inclusao(id_inclusão, id_produto, quantidade, preço, data_inclusão, data_validade)
+values(1, 1, 50, 600, '07/12/2024', '07/30/2024')
+
+insert into estoque_exclusao(id_exclusão, id_produto, quantidade, data_exclusao)
+values(1, 1, 10, '07/15/2024')
+
+select 
+	nome_produto,
+	(inn.quantidade - ex.quantidade)
+from
+	produto,
+	estoque_exclusao ex,
+	estoque_inclusao inn 
+where
+	produto.id_produto = ex.id_produto and 
+	produto.id_produto = inn.id_produto
+group by nome_produto, ex.quantidade, inn.quantidade
