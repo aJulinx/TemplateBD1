@@ -790,7 +790,9 @@ https://colab.research.google.com/drive/1fdIG4SOp8y86fWDeHBF6M6mtqrFEVb48?usp=sh
 ### 11	AJUSTES DA DOCUMENTAÇÃO, CRIAÇÃO DOS SLIDES E VÍDEO PARA APRESENTAÇAO FINAL <br>
 
 #### a) Modelo (pecha kucha)<br>
+https://docs.google.com/presentation/d/11M6Bu4ScowwQfB0rSNBO7A-huX5W6ehn_E-oBjfiz7E/edit?usp=sharing
 #### b) Tempo de apresentação 6:40 
+https://www.youtube.com/watch?v=0alJk1tPthM&feature=youtu.be
 
 ># Marco de Entrega 04: Itens 10 e 11 (20 PTS) <br>
 <br>
