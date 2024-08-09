@@ -13,12 +13,6 @@ Julio Cesar: julio.siilvafn2019@gmail.com<br>
 
 ### 2.MINI-MUNDO<br>
 
-Descrever o mini-mundo! (Não deve ser maior do que 30 linhas, se necessário resumir para justar) <br>
-Entrevista com o usuário e identificação dos requisitos.(quando for o caso de sistemas com cliente  real)<br>
-Descrição textual das regras de negócio definidas como um  subconjunto do mundo real 
-cujos elementos são propriedades que desejamos incluir, processar, armazenar, 
-gerenciar, atualizar, e que descrevem a proposta/solução a ser desenvolvida.
-
 > O cliente deseja um sistema simples, no qual consiga fazer o controle de estoque,
 seja de bebidas, carnes, ou outro produtos de um restaurante, e se possível, um controle
 sobre a validade dos produtos em estoque.
@@ -40,7 +34,8 @@ informando quais e a quantidade dos produtos que estão para vencer até dia Y.
     a) O sistema proposto poderá fornecer quais tipos de relatórios e informaçes? 
     b) Crie uma lista com os 5 principais relatórios que poderão ser obtidos por meio do sistema proposto!
     
-> O cliente informou que precisa inicialmente dos seguintes relatórios:
+>Será possível obter relatórios relacionados a saída e entrada de produto, como tal sua quantidade, validade, preços e outras informações a ajudar na tomada de decisão.
+>  O cliente informou que precisa inicialmente dos seguintes relatórios:
 * Relatório que mostre o total de produtos em estoque, separados por categoria
 * Relatório que mostre o total de produtos consumidos em determinados mês, separados por categoria.
 * Relatorio que mostre os produtos que estão para vencer e sua quantidade até determinado dia do mês.
@@ -62,8 +57,7 @@ informando quais e a quantidade dos produtos que estão para vencer até dia Y.
     
     
 #### 5.1 Validação do Modelo Conceitual
-    [Grupo01]: [Nomes dos que participaram na avaliação]
-    [Grupo02]: [Nomes dos que participaram na avaliação]
+    [Grupo01]: [Eduardo Pitanga, Júlio César, Theo Mischiatti.]
 
 #### 5.2 Descrição dos dados 
     [objeto]: [descrição do objeto]
