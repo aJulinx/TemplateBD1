@@ -52,7 +52,7 @@ b) O cliente informou que precisa inicialmente dos seguintes relatórios:
         Criar o esquema de forma a garantir a redução de informação redundante, possibilidade de valores null, 
         e tuplas falsas (Aplicar os conceitos de normalização abordados).   
         
-![Alt text](Conceitual_1.png")
+!Conceitual](files/Conceitual_3 estoque.png)
     
     
 #### 5.1 Validação do Modelo Conceitual
