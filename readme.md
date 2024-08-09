@@ -31,8 +31,10 @@ informando quais e a quantidade dos produtos que estão para vencer até dia Y.
 
 ### 3.PERGUNTAS A SEREM RESPONDIDAS<br>
 #### 3.1 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
-> a) Será possível obter relatórios relacionados a saída e entrada de produto, como tal sua quantidade, validade, preços e outras informações a ajudar na tomada de decisão.
->  b) O cliente informou que precisa inicialmente dos seguintes relatórios:
+a) Será possível obter relatórios relacionados a saída e entrada de produto, como tal sua quantidade, validade, preços e outras informações a ajudar na tomada de decisão.
+
+
+b) O cliente informou que precisa inicialmente dos seguintes relatórios:
 * Relatório que mostre o total de produtos em estoque, separados por categoria
 * Relatório que mostre o total de produtos consumidos em determinados mês, separados por categoria.
 * Relatorio que mostre os produtos que estão para vencer e sua quantidade até determinado dia do mês.
