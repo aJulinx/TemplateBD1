@@ -58,18 +58,45 @@ b) O cliente informou que precisa inicialmente dos seguintes relatórios:
     [Grupo01]: [Eduardo Pitanga, Júlio César, Theo Mischiatti.]
 
 #### 5.2 Descrição dos dados 
-    [objeto]: [descrição do objeto]
-    
-    EXEMPLO:
-    CLIENTE: Tabela que armazena as informações relativas ao cliente<br>
-    CPF: campo que armazena o número de Cadastro de Pessoa Física para cada cliente da empresa.<br>
+
+    [Estoque_inclusao]: [Tabela que armazena as informações relativas à inclusão de produtos no estoque.]
+- `id_inclusão`: Identificador único para cada inclusão.<br>
+- `id_produto`: Identificador do produto incluído.<br>
+- `quantidade`: Quantidade de produtos incluídos.<br>
+- `preço`: Preço do produto incluído.<br>
+- `data_inclusão`: Data em que o produto foi incluído no estoque.<br>
+- `data_validade`: Data de validade do produto incluído.<br>
+
+[Estoque exclusao]:[Tabela que armazena as informações relativas à exclusão de produtos do estoque.]
+- `id_exclusão`: Identificador único para cada exclusão.<br>
+- `id_produto`: Identificador do produto excluído.<br>
+- `quantidade`: Quantidade de produtos excluídos.<br>
+- `data_exclusao`: Data em que o produto foi excluído do estoque.<br>
+- `preço_venda`: Preço que o produto foi vendido.<br>
+
+[Produto]: [Tabela que armazena as informações relativas aos produtos.]
+- `id_produto`: Identificador único do produto.<br>
+- `nome_produto`: Nome do produto.<br>
+- `categoria_produto`: Categoria à qual o produto pertence.<br>
+- `id_usuario`: Chave estrangeira do usuário que cadastrou o produto.<br>
+
+[Categoria]: [Tabela que armazena as informações relativas às categorias de produtos.]
+- `id_categoria`: Identificador único da categoria.<br>
+- `nome_Categoria`: Nome da categoria.<br>
+- `id_usuario`: Chave estrangeira do usuário que cadastrou a categoria.<br>
+
+[Usuario]: [Tabela que armazena as informações relativas aos usuários.]
+- `id_user`: Identificador único do usuário.<br>
+- `nome`: Nome do usuário.<br>
+- `login`: Nome de login do usuário.
+- `senha`: Senha do usuário.
+
 
 ># Marco de Entrega 01: Do item 1 até o item 5.2 (5 PTS) <br> 
 
 ### 6	MODELO LÓGICO<br>
-        a) inclusão do esquema lógico do banco de dados
-        b) verificação de correspondencia com o modelo conceitual 
-        (não serão aceitos modelos que não estejam em conformidade)
+
+
 
 ### 7	MODELO FÍSICO<br>
         a) inclusão das instruções de criacão das estruturas em SQL/DDL 
